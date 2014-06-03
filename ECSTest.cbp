@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ECSTest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="./ECSTest_d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="./ECSTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="../../../lib/artemis-port2cpp/src" />
+			<Add directory="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-audio" />
+			<Add library="sfml-network" />
+			<Add library="sfml-system" />
+			<Add library="GL" />
+			<Add library="GLU" />
+			<Add library="GLEW" />
+			<Add library="../../../lib/libRocket/Build/build/linux/libRocketControls.so" />
+			<Add library="../../../lib/libRocket/Build/build/linux/libRocketCore.so" />
+			<Add library="../../../lib/libRocket/Build/build/linux/libRocketDebugger.so" />
+		</Linker>
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/AABB.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/AABB.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Color3f.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Color3f.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Point2i.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Point2i.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Vec2f.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Vec2f.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/ConvexHull.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/ConvexHull.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/EmissiveLight.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/EmissiveLight.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/Light.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/Light.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/LightSystem.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/LightSystem.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/Light_Point.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/Light_Point.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/ShadowFin.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/ShadowFin.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTree.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTree.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTreeNode.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTreeNode.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTreeOccupant.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTreeOccupant.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/StaticQuadTree.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/StaticQuadTree.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Utils.cpp" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Utils.h" />
+		<Unit filename="../../../lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Utils.inl" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/Aspect.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/Aspect.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/Component.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/ComponentManager.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/ComponentManager.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/ComponentMapper.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/ComponentMapper.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/ComponentType.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/Entity.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/Entity.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/EntityManager.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/EntityManager.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/EntityObserver.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/EntitySystem.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/EntitySystem.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/EntitySystemType.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/Manager.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/ManagerType.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/World.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/World.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/managers/GroupManager.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/managers/PlayerManager.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/managers/TagManager.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/managers/TeamManager.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/systems/DelayedEntityProcessingSystem.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/systems/DelayedEntityProcessingSystem.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/systems/EntityProcessingSystem.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/systems/IntervalEntityProcessingSystem.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/systems/IntervalEntitySystem.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/systems/IntervalEntitySystem.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/systems/VoidEntitySystem.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/utils/Bag.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/utils/FastMath.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/utils/FastMath.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/utils/Timer.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/utils/TrigLUT.cpp" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/utils/TrigLUT.h" />
+		<Unit filename="../../../lib/artemis-port2cpp/src/artemis/utils/Utils.h" />
+		<Unit filename="src/Collision.cpp" />
+		<Unit filename="src/Collision.h" />
+		<Unit filename="src/FPS.hpp" />
+		<Unit filename="src/ResourceManager.hpp" />
+		<Unit filename="src/TextureManager.cpp" />
+		<Unit filename="src/TextureManager.hpp" />
+		<Unit filename="src/artemis/components/CollisionComponent.h" />
+		<Unit filename="src/artemis/components/ComponentTypes.h" />
+		<Unit filename="src/artemis/components/Components.h" />
+		<Unit filename="src/artemis/components/ConvexHullComponent.h" />
+		<Unit filename="src/artemis/components/MovementComponent.h" />
+		<Unit filename="src/artemis/components/PositionComponent.h" />
+		<Unit filename="src/artemis/components/RenderComponent.h" />
+		<Unit filename="src/artemis/components/ScoreComponent.h" />
+		<Unit filename="src/artemis/systems/CollisionSystem.h" />
+		<Unit filename="src/artemis/systems/EntitySystemTypes.h" />
+		<Unit filename="src/artemis/systems/MovementSystem.h" />
+		<Unit filename="src/artemis/systems/RenderSystem.h" />
+		<Unit filename="src/artemis/systems/ScoreSystem.h" />
+		<Unit filename="src/artemis/systems/Systems.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,430 @@
+# depslib dependency file v1.0
+1371008342 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/Aspect.cpp
+	"artemis/Aspect.h"
+	"artemis/ComponentType.h"
+	<cstdarg>
+
+1384223052 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/Aspect.h
+	<bitset>
+	"artemis/ComponentType.h"
+
+1384023766 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/ComponentType.h
+
+1370718561 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/ComponentManager.cpp
+	"artemis/ComponentManager.h"
+	"artemis/Entity.h"
+	"artemis/Component.h"
+
+1386202779 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/ComponentManager.h
+	"artemis/Manager.h"
+	"artemis/utils/Bag.h"
+	"artemis/ComponentType.h"
+	"artemis/Component.h"
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/Manager.h
+	"artemis/EntityObserver.h"
+	"artemis/ManagerType.h"
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/EntityObserver.h
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/ManagerType.h
+
+1385858774 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/utils/Bag.h
+	<cstring>
+	<iostream>
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/Component.h
+	"artemis/ComponentType.h"
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/Entity.h
+	"artemis/utils/Bag.h"
+	"boost/uuid/uuid.hpp"
+	"boost/uuid/uuid_generators.hpp"
+	"artemis/ComponentType.h"
+	<bitset>
+
+1370718561 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/ComponentMapper.cpp
+	"artemis/ComponentMapper.h"
+	"artemis/World.h"
+	"artemis/ComponentManager.h"
+	"artemis/utils/Bag.h"
+
+1379545961 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/ComponentMapper.h
+	"artemis/ComponentType.h"
+	"artemis/utils/Bag.h"
+	"artemis/Component.h"
+	"artemis/Entity.h"
+
+1385777857 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/World.h
+	"artemis/ManagerType.h"
+	"artemis/EntitySystemType.h"
+	"artemis/ComponentType.h"
+	"artemis/utils/Bag.h"
+	"artemis/ComponentMapper.h"
+	<map>
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/EntitySystemType.h
+
+1370718561 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/Entity.cpp
+	"artemis/Entity.h"
+	"artemis/Component.h"
+	"artemis/ComponentManager.h"
+	"artemis/EntityManager.h"
+	"artemis/World.h"
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/EntityManager.h
+	"artemis/Manager.h"
+	"artemis/utils/Bag.h"
+	<bitset>
+	<vector>
+
+1370718561 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/EntityManager.cpp
+	"artemis/EntityManager.h"
+	"artemis/ManagerType.h"
+	"artemis/Entity.h"
+
+1370718561 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/EntitySystem.cpp
+	"artemis/EntitySystem.h"
+	"artemis/Aspect.h"
+	"artemis/Entity.h"
+
+1385916476 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/EntitySystem.h
+	"artemis/EntitySystemType.h"
+	"artemis/EntityObserver.h"
+	"artemis/utils/Bag.h"
+	<bitset>
+	<vector>
+
+1370718561 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/systems/DelayedEntityProcessingSystem.cpp
+	"artemis/systems/DelayedEntityProcessingSystem.h"
+	"artemis/World.h"
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/systems/DelayedEntityProcessingSystem.h
+	"artemis/EntitySystem.h"
+
+1385241907 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/systems/IntervalEntitySystem.cpp
+	"artemis/systems/IntervalEntitySystem.h"
+	"artemis/World.h"
+
+1384225199 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/systems/IntervalEntitySystem.h
+	"artemis/EntitySystem.h"
+
+1370718561 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/utils/FastMath.cpp
+	"artemis/utils/FastMath.h"
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/utils/FastMath.h
+	<cmath>
+
+1370718561 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/utils/TrigLUT.cpp
+	"artemis/utils/TrigLUT.h"
+	"artemis/utils/FastMath.h"
+	<cmath>
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/utils/TrigLUT.h
+
+1384104322 source:/home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/World.cpp
+	"artemis/World.h"
+	"artemis/Manager.h"
+	"artemis/ComponentManager.h"
+	"artemis/EntityManager.h"
+	"artemis/EntitySystem.h"
+
+1385602940 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/AABB.cpp
+	<LTBL/Constructs/AABB.h>
+	<SFML/OpenGL.hpp>
+	<cstdio>
+	<algorithm>
+
+1385422864 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/AABB.h
+	<LTBL/Utils.h>
+	<cmath>
+
+1385422650 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Utils.h
+	<SFML/Graphics.hpp>
+	<cmath>
+	<string>
+	<iostream>
+	<LTBL/Utils.inl>
+
+1385422697 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Utils.inl
+
+1343985297 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Color3f.cpp
+	<LTBL/Constructs/Color3f.h>
+	<SFML/OpenGL.hpp>
+
+1385422824 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Color3f.h
+
+1343985297 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Point2i.cpp
+	<LTBL/Constructs/Point2i.h>
+
+1385422807 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Point2i.h
+
+1376288056 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Vec2f.cpp
+	<LTBL/Constructs/Vec2f.h>
+	<math.h>
+
+1385422787 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs/Vec2f.h
+	<iostream>
+
+1380342766 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/ConvexHull.cpp
+	<LTBL/Light/ConvexHull.h>
+	<LTBL/Utils.h>
+	<cassert>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1385421998 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/ConvexHull.h
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<LTBL/Constructs.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<vector>
+
+1377657071 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Constructs.h
+	<LTBL/Constructs/AABB.h>
+
+1380512341 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTree.h
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<unordered_set>
+	<memory>
+	<list>
+
+1379230471 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTreeNode.h
+	<LTBL/Constructs.h>
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<vector>
+	<unordered_set>
+	<memory>
+
+1379875866 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTreeOccupant.h
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/Constructs/AABB.h>
+
+1385421058 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/EmissiveLight.cpp
+	<LTBL/Light/EmissiveLight.h>
+	<cmath>
+
+1386439261 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/EmissiveLight.h
+	<LTBL/QuadTree/QuadTree.h>
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<LTBL/Utils.h>
+
+1385599257 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/Light.cpp
+	<LTBL/Light/Light.h>
+	<cassert>
+
+1385859383 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/Light.h
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<LTBL/Constructs.h>
+	<LTBL/QuadTree/QuadTree.h>
+
+1379382051 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/Light_Point.cpp
+	<LTBL/Light/Light_Point.h>
+	<LTBL/Light/ShadowFin.h>
+	<LTBL/Utils.h>
+	<cassert>
+
+1385422236 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/Light_Point.h
+	<LTBL/Light/Light.h>
+	<memory>
+
+1385422572 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/ShadowFin.h
+	<SFML/OpenGL.hpp>
+	<SFML/System/Vector2.hpp>
+
+1386439359 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/LightSystem.cpp
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<LTBL/Light/LightSystem.h>
+	<LTBL/Light/ShadowFin.h>
+	<LTBL/Utils.h>
+	<cassert>
+
+1385422368 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/LightSystem.h
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<LTBL/QuadTree/StaticQuadTree.h>
+	<LTBL/Light/Light.h>
+	<LTBL/Light/Light_Point.h>
+	<LTBL/Light/EmissiveLight.h>
+	<LTBL/Light/ConvexHull.h>
+	<LTBL/Light/ShadowFin.h>
+	<LTBL/Constructs.h>
+	<LTBL/Utils.h>
+	<unordered_set>
+	<vector>
+
+1376288004 /home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/StaticQuadTree.h
+	<LTBL/QuadTree/QuadTree.h>
+
+1377656410 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Light/ShadowFin.cpp
+	<LTBL/Light/ShadowFin.h>
+
+1380512487 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTree.cpp
+	<LTBL/QuadTree/QuadTree.h>
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<SFML/OpenGL.hpp>
+
+1379457832 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTreeNode.cpp
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<cassert>
+
+1379875877 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/QuadTreeOccupant.cpp
+	<LTBL/QuadTree/QuadTreeOccupant.h>
+	<LTBL/QuadTree/QuadTreeNode.h>
+	<LTBL/QuadTree/QuadTree.h>
+	<cassert>
+
+1379231752 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/QuadTree/StaticQuadTree.cpp
+	<LTBL/QuadTree/StaticQuadTree.h>
+	<cassert>
+
+1385422665 source:/home/docs/stuff/code/lib/Let_There_Be_Light_v1.5.1/Let_There_Be_Light_v1.5/Source/LTBL/Utils.cpp
+	<LTBL/Utils.h>
+	<cstdlib>
+
+1385859342 source:/home/docs/stuff/code/random/Test/ECSTest/src/Collision.cpp
+	"Collision.h"
+
+1385427299 /home/docs/stuff/code/random/Test/ECSTest/src/Collision.h
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<cassert>
+	<vector>
+	<algorithm>
+	<cfloat>
+	<cmath>
+
+1386558823 source:/home/docs/stuff/code/random/Test/ECSTest/src/main.cpp
+	<iostream>
+	<cstdlib>
+	<memory>
+	<cassert>
+	<cstdlib>
+	<ctime>
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<artemis/World.h>
+	<LTBL/Light/LightSystem.h>
+	"artemis/systems/Systems.h"
+	"artemis/components/Components.h"
+	"FPS.hpp"
+	"TextureManager.hpp"
+
+1368159444 source:/home/docs/stuff/code/random/Test/ECSTest/src/TextureManager.cpp
+	<iostream>
+	"TextureManager.hpp"
+
+1385351062 /home/docs/stuff/code/random/Test/ECSTest/src/TextureManager.hpp
+	<SFML/Graphics.hpp>
+	"ResourceManager.hpp"
+
+1385351320 /home/docs/stuff/code/random/Test/ECSTest/src/ResourceManager.hpp
+	<string>
+	<unordered_map>
+
+1385924991 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/systems/RenderSystem.h
+	<artemis/Aspect.h>
+	<artemis/systems/IntervalEntityProcessingSystem.h>
+	<artemis/ComponentMapper.h>
+	"EntitySystemTypes.h"
+	"../components/RenderComponent.h"
+	"../components/PositionComponent.h"
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/systems/IntervalEntityProcessingSystem.h
+	"artemis/systems/IntervalEntitySystem.h"
+
+1386181612 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/systems/EntitySystemTypes.h
+
+1385655562 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/components/RenderComponent.h
+	<artemis/Component.h>
+	<SFML/Graphics.hpp>
+	"ComponentTypes.h"
+
+1386120018 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/components/ComponentTypes.h
+
+1385655537 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/components/PositionComponent.h
+	<artemis/Component.h>
+	<SFML/System.hpp>
+	"ComponentTypes.h"
+
+1385591904 /home/docs/stuff/code/random/Test/ECSTest/src/FPS.hpp
+	<ctime>
+	<chrono>
+	<ratio>
+
+1385917628 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/systems/MovementSystem.h
+	"EntitySystemTypes.h"
+	"../../FPS.hpp"
+	"../components/MovementComponent.h"
+	"../components/PositionComponent.h"
+	<artemis/systems/EntityProcessingSystem.h>
+	<artemis/ComponentMapper.h>
+
+1385835916 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/components/MovementComponent.h
+	<bitset>
+	<SFML/System.hpp>
+	<artemis/Component.h>
+	"ComponentTypes.h"
+
+1370718561 /home/docs/stuff/code/lib/artemis-port2cpp/src/artemis/systems/EntityProcessingSystem.h
+	"artemis/EntitySystem.h"
+	"artemis/EntitySystemType.h"
+
+1386480894 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/systems/CollisionSystem.h
+	<cstdlib>
+	<artemis/Aspect.h>
+	<artemis/systems/EntityProcessingSystem.h>
+	<artemis/ComponentMapper.h>
+	<artemis/utils/Bag.h>
+	"EntitySystemTypes.h"
+	"../components/Components.h"
+	"../../Collision.h"
+	"../../FPS.hpp"
+
+1386180262 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/components/CollisionComponent.h
+	<bitset>
+	<artemis/Component.h>
+	"ComponentTypes.h"
+	"../../Collision.h"
+
+1386181605 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/systems/Systems.h
+	"CollisionSystem.h"
+	"RenderSystem.h"
+	"MovementSystem.h"
+	"ScoreSystem.h"
+
+1386119900 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/components/Components.h
+	"CollisionComponent.h"
+	"MovementComponent.h"
+	"PositionComponent.h"
+	"RenderComponent.h"
+	"ConvexHullComponent.h"
+	"ScoreComponent.h"
+
+1386297228 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/components/ConvexHullComponent.h
+	<artemis/Component.h>
+	<LTBL/Light/ConvexHull.h>
+	"ComponentTypes.h"
+
+1386119871 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/components/ScoreComponent.h
+	<string>
+	<SFML/Graphics/Text.hpp>
+	"ComponentTypes.h"
+
+1386183180 /home/docs/stuff/code/random/Test/ECSTest/src/artemis/systems/ScoreSystem.h
+	<artemis/systems/IntervalEntityProcessingSystem.h>
+	<artemis/Aspect.h>
+	<artemis/ComponentMapper.h>
+	"EntitySystemTypes.h"
+	"../components/Components.h"
+	<string>
+
